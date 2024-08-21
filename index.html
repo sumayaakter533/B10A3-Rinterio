@@ -1,0 +1,66 @@
+<!-- ANCHOR - Author & Project Information
+
+ Created on Wed Aug 21 2024
+ Copyright (c) 2024 Rinterio
+
+    * @author      : Sumaya Akter
+    * @email       : sumaya55230@gmail.com
+    * @repo        : https://github.com/sumayaakter533/B10A3-Rinterio.git
+    * @createdOn   : 21/08/2024
+    * @description : A simple project using CSS framework Tailwind css and it's most popular component library 'daisyUI'.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rinterio</title>
+        <link
+            rel="shortcut icon"
+            href="./images/interior-design.png"
+            type="image/x-icon" />
+
+        <!-- LINK: Google Font - Manrope -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+            rel="stylesheet" />
+
+        <!-- LINK: Font Awesome CDN Link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <!-- LINK: Tailwind CSS & DaisyUI CDN Link -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- SECTION - Tailwind configuration script -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            dark1: '#212121',
+                            dark2: '#494949',
+                            dark3: '#737373'
+                        },
+                        fontFamily: {
+                            Manrope: 'Manrope'
+                        }
+                    }
+                }
+            };
+        </script>
+    </head>
+    <body class="font-Manrope"></body>
+</html>
