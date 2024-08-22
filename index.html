@@ -44,7 +44,7 @@
             type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
 
-        <!-- SECTION - Tailwind configuration script -->
+        <!-- TODO - Tailwind configuration script -->
         <script>
             tailwind.config = {
                 theme: {
@@ -62,5 +62,124 @@
             };
         </script>
     </head>
-    <body class="font-Manrope"></body>
+    <body class="font-Manrope bg-[#f9f9f9]">
+        <header>
+            <!-- SECTION - NAVBAR SECTION -->
+            <nav class="navbar px-0 py-12">
+                <div class="container w-11/12 mx-auto">
+                    <!-- ANCHOR NAV-LOGO -->
+                    <div class="navbar-start lg:w-4/12 xl:w-6/12">
+                        <a
+                            href="./index.html"
+                            class="text-[26px] smtext-3xl font-black text-dark1 flex items-center gap-2">
+                            <i
+                                class="fas fa-arrow-right bg-[#ABEF5F] text-center rounded-full -rotate-45 text-lg leading-8 w-8 h-8"></i>
+                            Rinterio
+                        </a>
+                    </div>
+
+                    <!-- ANCHOR NAV-MENU -->
+                    <div class="navbar-center hidden lg:flex">
+                        <ul
+                            class="menu menu-horizontal text-dark3 text-base font-normal px-1">
+                            <li>
+                                <a
+                                    href="#banner-section"
+                                    class="text-dark1 font-extrabold"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#portfolio-section"
+                                    class="hover:text-dark1 transition-colors duration-300">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#service-section"
+                                    class="hover:text-dark1 transition-colors ease-linear duration-300">
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#blog-section"
+                                    class="hover:text-dark1 transition-colors ease-linear duration-300">
+                                    Blogs
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#footer-section"
+                                    class="hover:text-dark1 transition-colors ease-linear duration-300">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar-end flex justify-end items-center gap-2">
+                        <!-- ANCHOR NAV-BUTTONS -->
+                        <div
+                            class="nav-buttons hidden sm:flex items-center flex-nowrap gap-2">
+                            <!-- NOTE SEARCH BTN -->
+                            <div
+                                class="bg-white border-[#E9E9E9] border w-10 h-10 leading-10 rounded-full text-center">
+                                <a
+                                    href="#"
+                                    class="search-btn text-dark2 text-xl">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+
+                            <!-- NOTE SHOPPING-CART BTN -->
+                            <div
+                                class="bg-white border-[#E9E9E9] border w-10 h-10 leading-10 rounded-full text-center">
+                                <a
+                                    href="#"
+                                    class="shopping-cart-btn text-dark2 text-xl">
+                                    <i class="fas fa-cart-shopping"></i>
+                                </a>
+                            </div>
+
+                            <!-- NOTE BOOK-CONSULT BTN -->
+                            <div
+                                class="bg-[#ABEF5F] rounded-[32px] border-none hidden md:flex btn">
+                                <a
+                                    class="book-consult-btn text-dark1 text-lg font-extrabold">
+                                    Book Consult
+                                    <i
+                                        class="fas fa-arrow-right bg-[#1C1C1C] text-white rounded-full text-center text-xl w-8 h-8 leading-8 -rotate-45"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- ANCHOR - MOBILE NAVBAR  -->
+                        <div
+                            class="lg:hidden dropdown border border-[#E9E9E9] w-10 h-10 leading-10 rounded-full bg-white text-center">
+                            <a
+                                href="#"
+                                class="mobile-navbar text-lg text-dark2">
+                                <i class="fas fa-bars-staggered"></i>
+                            </a>
+
+                            <ul
+                                tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0">
+                                <li><a>Home</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!--------------- END OF MOBILE NAVBAR -------------->
+                    </div>
+                </div>
+            </nav>
+            <!--------------- END OF NAVBAR -------------->
+        </header>
+    </body>
 </html>
