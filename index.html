@@ -62,12 +62,12 @@
             };
         </script>
     </head>
-    <body class="font-Manrope bg-[#f9f9f9]">
+    <body class="font-Manrope">
         <header>
             <!-- SECTION - NAVBAR SECTION -->
             <nav class="navbar px-0 py-12">
                 <div class="container w-11/12 mx-auto">
-                    <!-- ANCHOR NAV-LOGO -->
+                    <!-- SECTION NAV-LOGO -->
                     <div class="navbar-start lg:w-4/12 xl:w-6/12">
                         <a
                             href="./index.html"
@@ -77,8 +77,9 @@
                             Rinterio
                         </a>
                     </div>
+                    <!-- !SECTION - END NAV-LOGO -->
 
-                    <!-- ANCHOR NAV-MENU -->
+                    <!-- SECTION NAV-MENU -->
                     <div class="navbar-center hidden lg:flex">
                         <ul
                             class="menu menu-horizontal text-dark3 text-base font-normal px-1">
@@ -119,12 +120,14 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- !SECTION - END NAV-MENU  -->
 
+                    <!-- FIXME -->
                     <div class="navbar-end flex justify-end items-center gap-2">
-                        <!-- ANCHOR NAV-BUTTONS -->
+                        <!-- SECTION NAV-BUTTONS -->
                         <div
                             class="nav-buttons hidden sm:flex items-center flex-nowrap gap-2">
-                            <!-- NOTE SEARCH BTN -->
+                            <!-- TODO - SEARCH BTN -->
                             <div
                                 class="bg-white border-[#E9E9E9] border w-10 h-10 leading-10 rounded-full text-center">
                                 <a
@@ -134,7 +137,7 @@
                                 </a>
                             </div>
 
-                            <!-- NOTE SHOPPING-CART BTN -->
+                            <!-- TODO - SHOPPING-CART BTN -->
                             <div
                                 class="bg-white border-[#E9E9E9] border w-10 h-10 leading-10 rounded-full text-center">
                                 <a
@@ -144,7 +147,7 @@
                                 </a>
                             </div>
 
-                            <!-- NOTE BOOK-CONSULT BTN -->
+                            <!-- TODO - BOOK-CONSULT BTN -->
                             <div
                                 class="bg-[#ABEF5F] rounded-[32px] border-none hidden sm:flex btn">
                                 <a
@@ -155,8 +158,9 @@
                                 </a>
                             </div>
                         </div>
+                        <!-- !SECTION - END NAV-BUTTONS -->
 
-                        <!-- ANCHOR - MOBILE NAVBAR  -->
+                        <!-- SECTION - MOBILE NAVBAR  -->
                         <div
                             class="lg:hidden dropdown border border-[#E9E9E9] w-10 h-10 leading-10 rounded-full bg-white text-center">
                             <a
@@ -175,16 +179,16 @@
                                 <li><a>Contact Us</a></li>
                             </ul>
                         </div>
-                        <!--------------- END OF MOBILE NAVBAR -------------->
+                        <!-- !SECTION - END MOBILE NAVBAR -->
                     </div>
                 </div>
             </nav>
-            <!--------------- END OF NAVBAR -------------->
+            <!-- !SECTION - END OF NAVBAR -->
 
             <!-- SECTION - BANNER SECTION -->
             <section class="banner-section">
                 <div class="container w-11/12 mx-auto">
-                    <!-- ANCHOR BANNER IMAGE PART -->
+                    <!-- ANCHOR BANNER IMAGE CONTENTS -->
                     <div
                         class="banner-img xl:w-5/12 10/12 mx-auto flex justify-center">
                         <img src="./images/banner.png" alt="Banner Loading.." />
@@ -217,7 +221,98 @@
                     </div>
                 </div>
             </section>
-            <!--------------- END OF BANNER -------------->
+            <!-- !SECTION - END OF BANNER -->
         </header>
+
+        <main class="bg-[#f4f4f4]">
+            <!-- SECTION - ABOUT SECTION -->
+            <section class="lg:pt-10 pt-20 pb-24">
+                <!-- TODO - VECTOR IMG -->
+                <div class="rotate-[30] pb-4 ml-6 hidden lg:block">
+                    <img src="./images/Vector.png" class="" alt="" />
+                </div>
+
+                <div
+                    class="container w-11/12 mx-auto flex flex-col lg:flex-row gap-8">
+                    <!-- SECTION - ABOUT TEXT CONTENTS -->
+                    <div class="about-text lg:w-1/2">
+                        <span
+                            class="text-dark2 text-base leading-5 font-bold py-2 bg-white rounded-3xl xl:w-1/5 w-32 mx-auto lg:mx-0 flex justify-center items-center gap-2 mb-4">
+                            <i class="fas fa-arrow-right"></i>
+                            About Us
+                        </span>
+
+                        <h2
+                            class="text-dark1 sm:text-4xl text-3xl font-bold leading-tight text-center lg:text-start">
+                            We design thoughtful, <br />
+                            liveable spaces
+                        </h2>
+
+                        <p
+                            class="text-dark2 text-base font-medium md:w-11/12 mx-auto lg:mx-0 py-6 text-center lg:text-start">
+                            The barn house captivates with its blend of rustic
+                            charm and modern sophistication, featuring weathered
+                            wood, sleek metal accents.
+                        </p>
+
+                        <!-- SECTION - ABOUT CARD CONTENTS -->
+                        <div
+                            class="banner-card flex lg:flex-col md:flex-row flex-col gap-6">
+                            <!-- TODO - COMMERCIAL CARD -->
+                            <div
+                                class="card card-side lg:item:center items-start bg-white shadow-sm lg:p-6 p-4">
+                                <figure>
+                                    <img
+                                        src="./images/commercial.png"
+                                        alt="Image Loading.." />
+                                </figure>
+                                <div class="card-body text-left p-0 ml-6">
+                                    <h4
+                                        class="card-title text-dark2 lg:text-xl sm:text-lg text-base font-extrabold">
+                                        Commercial
+                                    </h4>
+                                    <p
+                                        class="text-dark3 lg:text-base sm:text-sm text-xs font-medium xl:w-4/6 lg:w-5/6">
+                                        The barn house captivates with its blend
+                                        of rustic charm and modern.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- TODO - RESIDENTIAL CARD -->
+                            <div
+                                class="card card-side lg:item:center items-start bg-white shadow-sm lg:p-6 p-4">
+                                <figure>
+                                    <img
+                                        src="./images/residential.png"
+                                        alt="Image Loading.." />
+                                </figure>
+                                <div class="card-body text-left p-0 ml-6">
+                                    <h4
+                                        class="card-title text-dark2 lg:text-xl sm:text-lg text-base font-extrabold">
+                                        Residential
+                                    </h4>
+                                    <p
+                                        class="text-dark3 lg:text-base sm:text-sm text-xs font-medium xl:w-4/6 lg:w-5/6">
+                                        The barn house captivates with its blend
+                                        of rustic charm and modern.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !SECTION - END ABOUT TEXT CONTENTS -->
+
+                    <!-- SECTION - ABOUT IMG CONTENTS -->
+                    <div class="about-img lg:w-1/2">
+                        <img
+                            class="w-full xl:h-[526px] lg:h-[552px] h-[425px] object-cover xl:object-fill rounded-2xl"
+                            src="./images/about-img.png"
+                            alt="Image Loading.." />
+                    </div>
+                </div>
+            </section>
+            <!-- !SECTION - END OF ABOUT -->
+        </main>
     </body>
 </html>
