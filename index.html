@@ -67,7 +67,7 @@
             <!-- SECTION - NAVBAR SECTION -->
             <nav class="navbar px-0 py-12">
                 <div class="container w-11/12 mx-auto">
-                    <!-- SECTION NAV-LOGO -->
+                    <!-- ANCHOR NAV-LOGO -->
                     <div class="navbar-start lg:w-4/12 xl:w-6/12">
                         <a
                             href="./index.html"
@@ -77,9 +77,8 @@
                             Rinterio
                         </a>
                     </div>
-                    <!-- !SECTION - END NAV-LOGO -->
 
-                    <!-- SECTION NAV-MENU -->
+                    <!-- ANCHOR NAV-MENU -->
                     <div class="navbar-center hidden lg:flex">
                         <ul
                             class="menu menu-horizontal text-dark3 text-base font-normal px-1">
@@ -120,9 +119,8 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- !SECTION - END NAV-MENU  -->
 
-                    <!-- FIXME -->
+                    <!-- FIXME NAVBAR-END SECTION -->
                     <div class="navbar-end flex justify-end items-center gap-2">
                         <!-- SECTION NAV-BUTTONS -->
                         <div
@@ -160,7 +158,7 @@
                         </div>
                         <!-- !SECTION - END NAV-BUTTONS -->
 
-                        <!-- SECTION - MOBILE NAVBAR  -->
+                        <!-- ANCHOR - MOBILE NAVBAR  -->
                         <div
                             class="lg:hidden dropdown border border-[#E9E9E9] w-10 h-10 leading-10 rounded-full bg-white text-center">
                             <a
@@ -179,7 +177,6 @@
                                 <li><a>Contact Us</a></li>
                             </ul>
                         </div>
-                        <!-- !SECTION - END MOBILE NAVBAR -->
                     </div>
                 </div>
             </nav>
@@ -188,7 +185,7 @@
             <!-- SECTION - BANNER SECTION -->
             <section class="banner-section">
                 <div class="container w-11/12 mx-auto">
-                    <!-- ANCHOR BANNER IMAGE CONTENTS -->
+                    <!--ANCHOR BANNER IMAGE CONTENTS -->
                     <div
                         class="banner-img xl:w-5/12 10/12 mx-auto flex justify-center">
                         <img src="./images/banner.png" alt="Banner Loading.." />
@@ -226,10 +223,11 @@
 
         <main class="bg-[#f4f4f4]">
             <!-- SECTION - ABOUT SECTION -->
-            <section class="lg:pt-10 pt-20 pb-24">
-                <!-- TODO - VECTOR IMG -->
-                <div class="rotate-[30] pb-4 ml-6 hidden lg:block">
-                    <img src="./images/Vector.png" class="" alt="" />
+            <section id="about-section" class="lg:pt-10 pt-20 pb-24">
+                <!-- TODO - ABOUT VECTOR IMG -->
+                <div
+                    class="container w-11/12 mx-auto rotate-[30] hidden lg:block">
+                    <img src="./images/Vector.png" class="pb-4 -ml-8" alt="" />
                 </div>
 
                 <div
@@ -243,7 +241,7 @@
                         </span>
 
                         <h2
-                            class="text-dark1 sm:text-4xl text-3xl font-bold leading-tight text-center lg:text-start">
+                            class="text-dark1 sm:text-4xl text-3xl font-bold sm:leading-snug leading-snug text-center lg:text-start">
                             We design thoughtful, <br />
                             liveable spaces
                         </h2>
@@ -300,10 +298,11 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- !SECTION - END ABOUT CARD CONTENTS -->
                     </div>
                     <!-- !SECTION - END ABOUT TEXT CONTENTS -->
 
-                    <!-- SECTION - ABOUT IMG CONTENTS -->
+                    <!-- ANCHOR - ABOUT IMG CONTENTS -->
                     <div class="about-img lg:w-1/2">
                         <img
                             class="w-full xl:h-[526px] lg:h-[552px] h-[425px] object-cover xl:object-fill rounded-2xl"
@@ -313,6 +312,67 @@
                 </div>
             </section>
             <!-- !SECTION - END OF ABOUT -->
+
+            <!-- SECTION - COUNTDOWN SECTION -->
+            <section id="countdown-section">
+                <div class="container w-11/12 mx-auto pb-24">
+                    <div
+                        class="countdown-main text-center rounded-3xl p-6 bg-white grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
+                        <!-- ANCHOR - REVIEW -->
+                        <div class="p-6">
+                            <i
+                                class="fas fa-message text-dark3 text-3xl pb-2 pr-3"></i>
+                            <h2
+                                class="text-dark2 text-4xl leading-snug font-extrabold">
+                                235+
+                            </h2>
+                            <p class="text-dark3 text-base font-medium">
+                                Happy Client Review
+                            </p>
+                        </div>
+
+                        <!-- ANCHOR - DEPARTMENT -->
+                        <div class="p-6">
+                            <i
+                                class="fas fa-tag text-dark3 text-3xl rotate-45 pr-6 relative top-3 pb-1"></i>
+                            <h2
+                                class="text-dark2 text-4xl leading-snug font-extrabold">
+                                50+
+                            </h2>
+                            <p class="text-dark3 text-base font-medium">
+                                Work Departments
+                            </p>
+                        </div>
+
+                        <!-- ANCHOR - CLIENT -->
+                        <div class="p-6">
+                            <i
+                                class="fas fa-users text-dark3 text-3xl pb-2 pr-4"></i>
+                            <h2
+                                class="text-dark2 text-4xl leading-snug font-extrabold">
+                                30k+
+                            </h2>
+                            <p class="text-dark3 text-base font-medium">
+                                Our Happy Client
+                            </p>
+                        </div>
+
+                        <!-- ANCHOR - MEMBERS -->
+                        <div class="p-6">
+                            <i
+                                class="fas fa-user-group text-dark3 text-3xl pb-2 pr-3"></i>
+                            <h2
+                                class="text-dark2 text-4xl leading-snug font-extrabold">
+                                307+
+                            </h2>
+                            <p class="text-dark3 text-base font-medium">
+                                Staff Members
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- !SECTION - END OF COUNTDOWN -->
         </main>
     </body>
 </html>
