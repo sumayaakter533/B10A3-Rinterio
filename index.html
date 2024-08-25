@@ -223,7 +223,7 @@
 
         <main class="bg-[#f4f4f4]">
             <!-- SECTION - ABOUT SECTION -->
-            <section id="about-section" class="lg:pt-10 pt-20 pb-24">
+            <section id="about-section" class="lg:pt-10 pt-20 xl:pb-24 pb-20">
                 <!-- TODO - ABOUT VECTOR IMG -->
                 <div
                     class="container w-11/12 mx-auto rotate-[30] hidden lg:block">
@@ -485,7 +485,7 @@
 
             <!-- SECTION - PORTFOLIO SECTION -->
             <!-- REVIEW PORTFOLIO SECTION RESPONSIVENESS AT FAULT -->
-            <section id="portfolio-section" class="bg-white py-24">
+            <section id="portfolio-section" class="bg-white xl:py-24 py-20">
                 <div class="container w-11/12 mx-auto">
                     <div class="portfolio-heading text-center mb-8">
                         <span
@@ -508,9 +508,9 @@
                     <!-- SECTION - PORTFOLIO INNER -->
                     <div
                         class="portfolio-inner grid grid-cols-12 lg:grid-rows-[284px_284px] grid-rows-[180px_180px_180px_180px] gap-6">
-                        <!-- TODO CARD-1 -->
+                        <!-- TODO - PORTFOLIO CARD-1 -->
                         <div
-                            class="card flex-row border border-[#e9e9e9] p-6 gap-6 md:col-span-8 col-span-12">
+                            class="card md:flex-row flex-col border border-[#e9e9e9] p-6 gap-6 md:col-span-8 col-span-12">
                             <figure class="lg:w-[650px] w-[530px]">
                                 <img
                                     src="./images/portfolio-img1.png"
@@ -540,7 +540,7 @@
                             </div>
                         </div>
 
-                        <!-- TODO CARD-2 -->
+                        <!-- TODO - PORTFOLIO CARD-2 -->
                         <div
                             class="card border border-[#e9e9e9] p-6 gap-6 md:col-span-4 col-span-6">
                             <figure>
@@ -551,7 +551,7 @@
                             </figure>
                         </div>
 
-                        <!-- TODO CARD-3 -->
+                        <!-- TODO - PORTFOLIO CARD-3 -->
                         <div
                             class="card border border-[#e9e9e9] p-6 gap-6 md:col-span-3 col-span-6">
                             <figure>
@@ -562,7 +562,7 @@
                             </figure>
                         </div>
 
-                        <!-- TODO CARD-4 -->
+                        <!-- TODO - PORTFOLIO CARD-4 -->
                         <div
                             class="card flex-row border border-[#e9e9e9] p-6 gap-6 md:col-span-6 col-span-12">
                             <figure class="w-[575px]">
@@ -592,7 +592,7 @@
                             </div>
                         </div>
 
-                        <!-- TODO CARD-5 -->
+                        <!-- TODO - PORTFOLIO CARD-5 -->
                         <div
                             class="card border border-[#e9e9e9] p-6 gap-6 md:col-span-3 col-span-6">
                             <figure>
@@ -603,7 +603,7 @@
                             </figure>
                         </div>
 
-                        <!-- TODO CARD-6 -->
+                        <!-- TODO - PORTFOLIO CARD-6 -->
                         <div
                             class="card border border-[#e9e9e9] p-6 gap-6 md:hidden col-span-6">
                             <figure>
@@ -618,6 +618,171 @@
                 </div>
             </section>
             <!-- !SECTION - END OF WORK -->
+
+            <!-- SECTION - ARTICLE & NEWS SECTION -->
+            <section id="news-section" class="xl:py-24 py-20">
+                <div class="container w-11/12 mx-auto">
+                    <div class="news-heading text-center mb-8">
+                        <span
+                            class="text-dark2 text-base leading-5 font-bold py-2 rounded-3xl flex justify-center items-center gap-2 mb-4 w-[164px] mx-auto bg-[rgba(172,239,95,0.2)] border border-[#ABEF5F]">
+                            <i class="fas fa-arrow-right"></i>
+                            Rinterio News
+                        </span>
+                        <h2
+                            class="text-dark1 sm:text-4xl text-3xl font-bold sm:leading-snug leading-snug">
+                            Read Our Articles and News
+                        </h2>
+                        <p
+                            class="text-dark2 text-base font-medium xl:w-1/2 md:w-9/12 mx-auto py-6">
+                            The barn house captivates with its blend of rustic
+                            charm and modern sophistication, featuring weathered
+                            wood, sleek metal accents.
+                        </p>
+                    </div>
+
+                    <!-- SECTION - NEWS CARD SECTION -->
+                    <div
+                        class="news-inner grid lg:grid-cols-3 grid-cols-1 gap-6">
+                        <!-- TODO - NEWS CARD-1 -->
+                        <div
+                            class="card md:flex-row lg:flex-col flex-col bg-white p-6 gap-4">
+                            <figure class="p-0">
+                                <img
+                                    src="./images/article1.png"
+                                    alt="Image Loading.."
+                                    class="w-full h-full object-cover rounded-2xl" />
+                            </figure>
+                            <div class="card-body gap-2 p-0">
+                                <div
+                                    class="text-dark3 text-sm font-medium flex gap-3">
+                                    <span>
+                                        <i
+                                            class="fas fa-calendar-days text-2xl pr-2"></i>
+                                        July14, 2024
+                                    </span>
+                                    <span>
+                                        <i
+                                            class="fas fa-user text-2xl pr-2"></i>
+                                        By Admin
+                                    </span>
+                                </div>
+                                <h2
+                                    class="text-dark2 sm:text-xl sm:w-full text-lg font-extrabold">
+                                    How to choose the furniture
+                                    <span class="xl:block lg:inline sm:block">
+                                        right of your home.
+                                    </span>
+                                </h2>
+                                <p class="text-dark3 text-base grow-0 xl:w-4/5">
+                                    The barn house captivates with its blend of
+                                    rustic charm and modern.
+                                </p>
+                                <div class="card-actions mt-1">
+                                    <a
+                                        href="#"
+                                        class="banner-btn text-dark1 md:text-xl text-lg font-bold mt-1">
+                                        Read More
+                                        <i
+                                            class="fas fa-arrow-right bg-[#ABEF5F] text-center rounded-full -rotate-45 text-lg leading-8 w-8 h-8 ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TODO - NEWS CARD-2 -->
+                        <div
+                            class="card md:flex-row lg:flex-col flex-col bg-white p-6 gap-4">
+                            <figure class="p-0">
+                                <img
+                                    src="./images/article2.png"
+                                    alt="Image Loading.."
+                                    class="w-full h-full object-cover rounded-2xl" />
+                            </figure>
+                            <div class="card-body gap-2 p-0">
+                                <div
+                                    class="text-dark3 text-sm font-medium flex gap-3">
+                                    <span>
+                                        <i
+                                            class="fas fa-calendar-days text-2xl pr-2"></i>
+                                        July14, 2024
+                                    </span>
+                                    <span>
+                                        <i
+                                            class="fas fa-user text-2xl pr-2"></i>
+                                        By Admin
+                                    </span>
+                                </div>
+                                <h2 class="text-dark2 text-xl font-extrabold">
+                                    How to choose the furniture
+                                    <span class="xl:block lg:inline sm:block">
+                                        right of your home.
+                                    </span>
+                                </h2>
+                                <p class="text-dark3 text-base grow-0 xl:w-4/5">
+                                    The barn house captivates with its blend of
+                                    rustic charm and modern.
+                                </p>
+                                <div class="card-actions mt-1">
+                                    <a
+                                        href="#"
+                                        class="banner-btn text-dark1 md:text-xl text-lg font-bold mt-1">
+                                        Read More
+                                        <i
+                                            class="fas fa-arrow-right bg-[#ABEF5F] text-center rounded-full -rotate-45 text-lg leading-8 w-8 h-8 ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TODO - NEWS CARD-3 -->
+                        <div
+                            class="card md:flex-row lg:flex-col flex-col bg-white p-6 gap-4">
+                            <figure class="p-0">
+                                <img
+                                    src="./images/article3.png"
+                                    alt="Image Loading.."
+                                    class="w-full h-full object-cover rounded-2xl" />
+                            </figure>
+                            <div class="card-body gap-2 p-0">
+                                <div
+                                    class="text-dark3 text-sm font-medium flex gap-3">
+                                    <span>
+                                        <i
+                                            class="fas fa-calendar-days text-2xl pr-2"></i>
+                                        July14, 2024
+                                    </span>
+                                    <span>
+                                        <i
+                                            class="fas fa-user text-2xl pr-2"></i>
+                                        By Admin
+                                    </span>
+                                </div>
+                                <h2 class="text-dark2 text-xl font-extrabold">
+                                    How to choose the furniture
+                                    <span class="xl:block lg:inline sm:block">
+                                        right of your home.
+                                    </span>
+                                </h2>
+                                <p class="text-dark3 text-base grow-0 xl:w-4/5">
+                                    The barn house captivates with its blend of
+                                    rustic charm and modern.
+                                </p>
+                                <div class="card-actions mt-1">
+                                    <a
+                                        href="#"
+                                        class="banner-btn text-dark1 md:text-xl text-lg font-bold mt-1">
+                                        Read More
+                                        <i
+                                            class="fas fa-arrow-right bg-[#ABEF5F] text-center rounded-full -rotate-45 text-lg leading-8 w-8 h-8 ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !SECTION - END OF NEWS CARD SECTION -->
+                </div>
+            </section>
+            <!-- !SECTION - END OF ARTICLE & NEWS -->
         </main>
     </body>
 </html>
