@@ -61,11 +61,17 @@
                 }
             };
         </script>
+
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
     </head>
     <body class="font-Manrope">
         <header>
             <!-- SECTION - NAVBAR SECTION -->
-            <nav class="navbar px-0 py-12">
+            <nav class="navbar px-0 sm:py-12 py-8 fixed top-0 z-10 bg-white">
                 <div class="container w-11/12 mx-auto">
                     <!-- ANCHOR NAV-LOGO -->
                     <div class="navbar-start lg:w-4/12 xl:w-6/12">
@@ -98,14 +104,14 @@
                             </li>
                             <li>
                                 <a
-                                    href="#service-section"
+                                    href="#work-section"
                                     class="hover:text-dark1 transition-colors ease-linear duration-300">
                                     Services
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#blog-section"
+                                    href="#news-section"
                                     class="hover:text-dark1 transition-colors ease-linear duration-300">
                                     Blogs
                                 </a>
@@ -170,11 +176,15 @@
                             <ul
                                 tabindex="0"
                                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0">
-                                <li><a>Home</a></li>
-                                <li><a>Services</a></li>
-                                <li><a>Portfolio</a></li>
-                                <li><a>Blogs</a></li>
-                                <li><a>Contact Us</a></li>
+                                <li><a href="#banner-section">Home</a></li>
+                                <li><a href="#work-section">Services</a></li>
+                                <li>
+                                    <a href="#portfolio-section">Portfolio</a>
+                                </li>
+                                <li><a href="#news-section">Blogs</a></li>
+                                <li>
+                                    <a href="#footer-section">Contact Us</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -183,7 +193,7 @@
             <!-- !SECTION - END OF NAVBAR -->
 
             <!-- SECTION - BANNER SECTION -->
-            <section id="banner-section">
+            <section id="banner-section" class="mt-[152px]">
                 <div class="container w-11/12 mx-auto">
                     <!--ANCHOR BANNER IMAGE CONTENTS -->
                     <div
@@ -846,7 +856,9 @@
             <!-- !SECTION - END OF FORM -->
         </main>
 
-        <footer class="xl:py-24 py-20 bg-[#1C1C1C] text-center">
+        <footer
+            id="footer-section"
+            class="xl:py-24 py-20 bg-[#1C1C1C] text-center">
             <div class="container w-11/12 mx-auto">
                 <h3
                     class="text-3xl font-black text-[#E9E9E9] flex items-center justify-center gap-2 mb-4">
@@ -864,9 +876,9 @@
                 <div
                     class="text-dark3 text-base font-medium text-[#E9E9E9] flex flex-col sm:flex-row justify-center lg:gap-28 md:gap-16 sm:gap-10 gap-8 p-12">
                     <a href="#banner-section">Home</a>
-                    <a href="#service-section">Services</a>
+                    <a href="#work-section">Services</a>
                     <a href="#portfolio-section">Portfolio</a>
-                    <a href="#blog-section">Blogs</a>
+                    <a href="#news-section">Blogs</a>
                     <a href="#footer-section">Contact Us</a>
                 </div>
 
